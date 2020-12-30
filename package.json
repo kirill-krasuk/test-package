@@ -1,7 +1,7 @@
 {
   "name": "kikiron_test_package",
   "version": "1.2.0",
-  "description": "test package",
+  "description": "test kikiron package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
