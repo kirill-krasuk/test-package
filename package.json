@@ -1,10 +1,12 @@
 {
   "name": "kikiron_test_package",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "test package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
