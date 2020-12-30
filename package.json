@@ -2,10 +2,18 @@
   "name": "kikiron_test_package",
   "version": "1.1.1",
   "description": "test package",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "echo \"prebuplish print\""
   },
   "author": "",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
